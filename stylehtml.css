@@ -1,0 +1,65 @@
+#meme0 {
+    position: relative;
+    font-family: 'Impact', sans-serif;
+  }
+
+  .memeTopText {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 36px;
+    width:100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  }
+  .memeBotText {
+    position: absolute;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 36px;
+    bottom: 15%;
+    width: 100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .images {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+  }
+  .inputs {
+    font-size: 16px;
+    font-family: "Gill Sans", sans-serif;
+    }
+
+.main_heading {
+    background-color: rgba(142, 188, 218, 0.425);    
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-family: "Gill Sans", sans-serif;
+    color: grey;
+    padding: 5px;
+  }
+
+.button {
+    font-family: "Gill Sans", sans-serif;
+    font-size:16px;
+    text-align: center;
+    padding: 3px;
+    background-color: cornflowerblue;
+    opacity: 0.8;
+    left: 50%;
+}
+
+.container {
+    padding: 12px;
+}
